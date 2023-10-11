@@ -1,12 +1,13 @@
 {
-  "name": "elysia-firebase-auth",
+  "name": "elysia-firebase-demo",
   "version": "1.0.50",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "firebase:start": "firebase emulators:start",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "firebase-admin": "^11.11.0"
   },
   "devDependencies": {
     "bun-types": "latest"
